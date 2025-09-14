@@ -35,7 +35,7 @@ It brings together chat, vision, embeddings, and Q\&A — all in one sleek app.
 * Useful for tasks like semantic search, clustering, and retrieval.
 
 📸 *Screenshot:*
-![Embeddings](Screenshot/EmbeddedText.png)
+![Embeddings](Screenshot/Embedded_Text.png)
 
 ---
 
