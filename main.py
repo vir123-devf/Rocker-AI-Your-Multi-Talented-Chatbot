@@ -19,6 +19,7 @@ st.set_page_config(
     layout="centered"
 )
 
+
 with st.sidebar:
 
     selected = option_menu("Rocker AI",
@@ -114,6 +115,7 @@ if selected == "Ask Me Anything":
     if st.button("Get Answer▶️"):
        response = gemini_response(in_prompt)
        st.markdown(response)
+
 
 
 
