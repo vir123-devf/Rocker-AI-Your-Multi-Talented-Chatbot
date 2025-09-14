@@ -43,10 +43,11 @@ def embedding_response(input_text):
 
 
 def gemini_response(in_prompt):
-    model = genai.GenerativeModel("gemini-2.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(in_prompt)
     result = response.text
     return result
+
 
 
 
