@@ -40,5 +40,6 @@ Spread the word! Feel free to share this project on GitHub and let others experi
 **P.S.** I am always happy to answer any questions you might have. Feel free to reach out!
 
 <img width="1789" height="730" alt="image" src="https://github.com/user-attachments/assets/9a79de07-4259-4eb3-9ff0-8444471306be" />
+<img width="1660" height="837" alt="image" src="https://github.com/user-attachments/assets/863c3d28-ba3e-44b5-8a92-269f7ed453b8" />
 
 
