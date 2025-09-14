@@ -15,17 +15,17 @@ It brings together chat, vision, embeddings, and Q\&A — all in one sleek app.
 * Engages naturally with context-aware responses.
 
 📸 *Screenshot:*
-![ChatBot](./screenshots/chatbot.png)
+![ChatBot](Screenshot/Chatbot.png)
 
 ---
 
-### 🖼️ Image Captioning
+### 🖼️ Snap Captioning
 
 * Upload any image and let **Gemini-2.5-Flash-Lite** describe it.
 * Great for visual interpretation and quick insights.
 
 📸 *Screenshot:*
-![Image Captioning](./screenshots/image_captioning.png)
+![Image Captioning](Screenshot/SnapCaption.png)
 
 ---
 
@@ -35,7 +35,7 @@ It brings together chat, vision, embeddings, and Q\&A — all in one sleek app.
 * Useful for tasks like semantic search, clustering, and retrieval.
 
 📸 *Screenshot:*
-![Embeddings](./screenshots/embeddings.png)
+![Embeddings](Screenshot/Embedded Text.png)
 
 ---
 
@@ -45,7 +45,7 @@ It brings together chat, vision, embeddings, and Q\&A — all in one sleek app.
 * Get simple, clear answers to any query.
 
 📸 *Screenshot:*
-![Ask Me Anything](./screenshots/ask_me_anything.png)
+![Ask Me Anything](Screenshot/Ask_Me_Question.png)
 
 ---
 
