@@ -38,5 +38,7 @@ The project is neatly organized into two main sections:
 Spread the word! Feel free to share this project on GitHub and let others experience the joy of chatting with a versatile AI companion.
 
 **P.S.** I am always happy to answer any questions you might have. Feel free to reach out!
-<img width="1916" height="842" alt="image" src="https://github.com/user-attachments/assets/c89a9902-f8e8-44d0-b9bd-6d7f6eb09d89" />
+
+<img width="1789" height="730" alt="image" src="https://github.com/user-attachments/assets/9a79de07-4259-4eb3-9ff0-8444471306be" />
+
 
