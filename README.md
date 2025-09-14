@@ -1,45 +1,155 @@
-##  Introducing Your Chatty Companion: A Multi-Talented Chatbot with Streamlit 
+## 🐺 Rocker AI – Your Multi-Talented Chatbot
 
-This project brings you a one-stop shop for all your chatbot needs! It boasts a variety of features powered by Gemini, Google's latest large language models:
+ **Rocker AI** is an interactive Streamlit-based AI assistant powered by **Google’s Gemini 2.5 family of models**.
+It brings together chat, vision, embeddings, and Q\&A — all in one sleek app.
 
-**1. Chat with a Memorable Friend:**
+👉 [Try Rocker AI Live](https://rockerai.streamlit.app/)
 
-- Engage in conversations that flow naturally, thanks to the chatbot's ability to remember past interactions (powered by Gemini-pro).
-- No more starting from scratch each time! Build a rapport and have meaningful conversations.
+---
 
-**2. See the World Through Text (and Images!):**
+## ✨ Features
 
-- Upload an image, and our image captioning feature (using Gemini-1.5-pro) will describe it for you. Let the chatbot be your visual interpreter!
+### 🤖 ChatBot
 
-**3. Craft Text with Finesse:**
+* Powered by **Gemini-2.5-Flash** for fast, interactive conversations.
+* Engages naturally with context-aware responses.
 
-- Feeling stuck for words? Our embed text feature can generate creative text based on your input, helping you express yourself more effectively.
+📸 *Screenshot:*
+![ChatBot](./screenshots/chatbot.png)
 
-**4. Ask Away, Get Answers (Even Without Remembering Everything!):**
+---
 
-- This simple chatbot, separate from the memory-based one, is always ready to answer your questions, powered by Ask Me Anything.
+### 🖼️ Image Captioning
 
-**How it Works:**
+* Upload any image and let **Gemini-2.5-Flash-Lite** describe it.
+* Great for visual interpretation and quick insights.
 
-The project is neatly organized into two main sections:
+📸 *Screenshot:*
+![Image Captioning](./screenshots/image_captioning.png)
 
-- **main.py:** This file handles all the user interface aspects using the powerful Streamlit library. Streamlit makes it easy to create interactive web apps, perfect for our chatbot.
-- **gemini_utility:** This section is the heart of the project, where all the generative models are loaded and functions are defined. Here's where the magic of Gemini comes to life!
+---
 
-**Getting Started (It's Easy!):**
+### 🔢 Text Embeddings
 
-1.  **Grab the Code:** Clone this repository to your local machine.
-2.  **Set the Stage:** Install all the required packages listed in the `requirements.txt` file using `pip install -r requirements.txt`.
-3.  **Unlock the Secrets:**  Add your API key to the `config.json` file. This key is essential for accessing the power of Gemini.
-4.  **Let's Chat!** Run `main.py` and get ready to interact with your amazing chatbot!
+* Generate **semantic embeddings** using `gemini-embedding-001`.
+* Useful for tasks like semantic search, clustering, and retrieval.
 
-**Sharing is Caring!**
+📸 *Screenshot:*
+![Embeddings](./screenshots/embeddings.png)
 
-Spread the word! Feel free to share this project on GitHub and let others experience the joy of chatting with a versatile AI companion.
+---
 
-**P.S.** I am always happy to answer any questions you might have. Feel free to reach out!
+### ❓ Ask Me Anything
 
-<img width="1789" height="730" alt="image" src="https://github.com/user-attachments/assets/9a79de07-4259-4eb3-9ff0-8444471306be" />
-<img width="1660" height="837" alt="image" src="https://github.com/user-attachments/assets/863c3d28-ba3e-44b5-8a92-269f7ed453b8" />
-<img width="1647" height="875" alt="image" src="https://github.com/user-attachments/assets/41652f4e-28e7-4cfd-bb61-d19eb15f4974" />
-<img width="1653" height="861" alt="image" src="https://github.com/user-attachments/assets/d67d7f1a-0706-488a-b81a-08d56276895f" />
+* A lightweight Q\&A mode powered by **Gemini-2.5-Flash**.
+* Get simple, clear answers to any query.
+
+📸 *Screenshot:*
+![Ask Me Anything](./screenshots/ask_me_anything.png)
+
+---
+
+## 🏗️ Project Structure
+
+```
+📂 Rocker-AI
+├── .devcontainer/       # Dev container setup
+├── README.md            # Project documentation
+├── config.json          # API key configuration
+├── gemini_utility.py    # Utility functions for models
+├── main.py              # Streamlit app UI
+└── requirements.txt     # Dependencies
+```
+
+---
+
+## ⚙️ How It Works
+
+1. **Frontend (UI):**
+
+   * Built with **Streamlit** (`main.py`)
+   * Simple navigation for chatbot, captioning, embeddings, and Q\&A.
+
+2. **Backend (Models):**
+
+   * Defined in `gemini_utility.py`
+   * Uses the latest Gemini models:
+
+     * **`gemini-2.5-flash`** → Chatbot & Q\&A
+     * **`gemini-2.5-flash-lite`** → Vision (image captioning)
+     * **`models/gemini-embedding-001`** → Text embeddings
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/rocker-ai.git
+cd rocker-ai
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Add API Key
+
+* Create a `config.json` file (already in repo).
+* Add your Google Generative AI API key:
+
+```json
+{
+  "GOOGLE_API_KEY": "your_api_key_here"
+}
+```
+
+### 4️⃣ Run the App
+
+```bash
+streamlit run main.py
+```
+
+---
+
+## 🌍 Deployment
+
+Rocker AI is live here:
+👉 [https://rockerai.streamlit.app/](https://rockerai.streamlit.app/)
+
+---
+
+## 🤝 Contributing
+
+* Fork the repo
+* Create a new branch (`feature-new`)
+* Commit changes
+* Submit a pull request 🎉
+
+---
+
+## 📌 Tech Stack
+
+* **Frontend:** Streamlit
+* **Backend Models:** Google Gemini (via `google-generativeai`)
+* **Language:** Python 3.x
+
+---
+
+## 💡 Why Rocker AI?
+
+* Unified app: Chat, Vision, Embeddings, and Q\&A in one place.
+* Built on **cutting-edge Gemini models**.
+* Open-source, extensible, and easy to deploy.
+
+---
+
+## 🐺 Rock With Rocker AI
+
+Unleash the power of **AI that chats, sees, and understands** – all in one app.
+
+---
+👨‍💻 Made with ❤️ by [Virendra Badgotya]
