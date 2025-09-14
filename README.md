@@ -152,4 +152,4 @@ Rocker AI is live here:
 Unleash the power of **AI that chats, sees, and understands** – all in one app.
 
 ---
-👨‍💻 Made with ❤️ by [Virendra Badgotya]
+👨‍💻 Made with ❤️ by Virendra Badgotya
