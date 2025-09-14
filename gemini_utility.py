@@ -20,13 +20,13 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 
 def load_model():
-    rocker_model = genai.GenerativeModel("gemini-pro")
+    rocker_model = genai.GenerativeModel("gemini-2.5-flash")
     return rocker_model
 # fxn for image captioning
 
 
 def load_vision_model(prompt, image):
-    vision_model = genai.GenerativeModel("gemini-1.5-pro")
+    vision_model = genai.GenerativeModel("gemini-2.5-flash-lite")
     response = vision_model.generate_content([prompt, image])
     result = response.text
     return result
@@ -34,7 +34,7 @@ def load_vision_model(prompt, image):
 # getting embedding of a given text
 
 def embedding_response(input_text):
-    embedding_model = "models/embedding-001"
+    embedding_model = "models/gemini-embedding-001"
     embedding = genai.embed_content(model=embedding_model,
                                     content=input_text,
                                     task_type='retrieval_document')
@@ -43,10 +43,11 @@ def embedding_response(input_text):
 
 
 def gemini_response(in_prompt):
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-2.5-pro")
     response = model.generate_content(in_prompt)
     result = response.text
     return result
+
 
 
 
